@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* overflow: hidden; */
+}
+
+h1{
+    margin-bottom: 1rem;
+}
+
+#btn{
+    width: 95%;
+}
+
+#todoCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* #todo{
+    display: flex;
+    align-items: center;
+} */
+
+.todoCard{
+    position: relative;
+    width: max-content;
+}
+
+.delBtn{
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.todoCard, #btn{
+    margin: 0.5rem;
+}
